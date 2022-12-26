@@ -1,0 +1,18 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "description": "Testing with parcel",
+  "main": "script.js",
+  "author": "Andrii Drozdenko",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.2",
+    "lodash": "^4.17.21",
+    "parcel": "^2.8.2",
+    "uuid": "^9.0.0"
+  }
+}

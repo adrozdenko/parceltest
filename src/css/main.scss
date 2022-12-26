@@ -1,0 +1,16 @@
+$body_background_color: lightblue;
+$header_bg_color: lightsalmon;
+$header_border_color: brown;
+
+body {
+    background-color: $body_background_color
+}
+
+h1 {
+    color: brown;
+    border: 1px solid brown;
+    margin: -10px;
+    padding: 5px;
+    background-color: $header_bg_color;
+    text-align: center;
+}
